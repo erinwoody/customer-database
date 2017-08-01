@@ -11,28 +11,50 @@ h1 {
 
 .section {
     display: flex;
-    background: yellow;
 }
 
 .container {
     margin: auto;
     max-width: 70rem;
-    background: green;
 }
 
 .grid {
-    /* align-content: center; */
     display: flex;
     flex-wrap: wrap;  
 }
 
 .content {
     text-align: center;
-    background: red;
     margin: 1rem 0 3rem 1rem;
 }
 
  img {
     height: 250px;
-    widows: 250px;
+    width: 250px;
 }  
+
+.fullName {
+    border-bottom: 2px solid green;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.email {
+    font-weight: 50;
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.address {
+    font-size: .9rem;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.ssn {
+    color: lightgreen;
+    
+}
