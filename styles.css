@@ -34,7 +34,8 @@ h1 {
 }  
 
 .fullName {
-    border-bottom: 2px solid green;
+    
+    text-decoration: underline #6ABC95;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -55,6 +56,5 @@ h1 {
 }
 
 .ssn {
-    color: lightgreen;
-    
+    color: #6ABC95;
 }
